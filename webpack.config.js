@@ -28,6 +28,9 @@ module.exports = {
       'process.env.NODE_ENV': JSON.stringify('development')
     })
   ],
+  postcss: [
+    require('lost')
+  ],
   module: {
     loaders: [{
       test: /\.jsx?$/,
@@ -37,8 +40,14 @@ module.exports = {
         "presets": ["react", "es2015", "stage-0", "react-hmre"]
       }
     }, {
+      test:   /\.styl$/,
+      loader: "style-loader!css-loader!postcss-loader!stylus-loader"
+    }, {
       test: /\.json?$/,
       loader: 'json'
+    }, {
+      test: /\.less$/,
+      loader: "style!css!less"
     }, {
       test: /\.css$/,
       loader: 'style!css?modules&localIdentName=[name]---[local]---[hash:base64:5]'
