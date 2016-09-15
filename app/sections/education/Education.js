@@ -1,6 +1,7 @@
 import React from 'react';
 import CSSModules from 'react-css-modules';
 
+import Header from '../../components/header.js';
 import styles from './Education.styl';
 
 class App extends React.Component {
@@ -10,7 +11,7 @@ class App extends React.Component {
   render() {
     return (
       <section>
-        <h3>EDUCATION</h3>
+        <Header text="Education" type="h3" caps />
         <p>Bachelors Degree in Engineering Systems and Computing (BEng) 2003 - 2009 University of Guelph, Guelph, Ontario</p>
       </section>
     );

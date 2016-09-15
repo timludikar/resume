@@ -1,6 +1,8 @@
 import React from 'react';
 import CSSModules from 'react-css-modules';
 
+import Header from '../../components/header.js';
+
 import styles from './Skills.styl';
 
 class App extends React.Component {
@@ -10,7 +12,7 @@ class App extends React.Component {
   render() {
     return (
       <section>
-        <h3>SUMMARY OF PERSONAL SKILLS</h3>
+        <Header text="Summary of personal skills" type="h3" caps />
         <ul>
           <li>Organized,  exible, and dependable.</li>
           <li>Excellent problem solver and programmer.</li>
