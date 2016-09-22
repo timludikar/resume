@@ -6,7 +6,7 @@ class App extends React.Component {
     super(props);
   }
   render() {
-    return <section />;
+    return <section>{this.props.children}</section>;
   }
 }
 

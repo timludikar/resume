@@ -6,7 +6,7 @@ class App extends React.Component {
     super(props);
   }
   render() {
-    return <aside />;
+    return <aside>{this.props.children}</aside>;
   }
 }
 
