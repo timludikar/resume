@@ -1,8 +1,6 @@
 import React from 'react';
 import CSSModules from 'react-css-modules';
 
-// import styles from './header.styl';
-
 class App extends React.Component {
   constructor(props) {
     super(props);

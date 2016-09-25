@@ -1,12 +1,12 @@
 import React from 'react';
 import CSSModules from 'react-css-modules';
 
-import Header from '../../components/header.js';
-import List from '../../components/list.js';
-import Aside from '../../components/aside.js';
-import Article from '../../components/article.js';
-import Section from '../../components/section.js';
-import Paragraph from '../../components/paragraph.js';
+import Header from '../../components/header';
+import List from '../../components/list';
+import Aside from '../../components/aside';
+import Article from '../../components/article';
+import Section from '../../components/section';
+import Paragraph from '../../components/paragraph';
 
 import styles from './Experience.styl';
 

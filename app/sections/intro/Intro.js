@@ -1,10 +1,10 @@
 import React from 'react';
 import CSSModules from 'react-css-modules';
 
-import Header from '../../components/header.js';
-import List from '../../components/list.js';
-import Section from '../../components/section.js';
-import Paragraph from '../../components/paragraph.js'
+import Header from '../../components/header';
+import List from '../../components/list';
+import Section from '../../components/section';
+import Paragraph from '../../components/paragraph'
 
 import styles from './Intro.styl';
 

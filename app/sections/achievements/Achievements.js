@@ -1,10 +1,10 @@
 import React from 'react';
 import CSSModules from 'react-css-modules';
 
-import Header from '../../components/header.js';
-import List from '../../components/list.js';
-import Article from '../../components/article.js';
-import Section from '../../components/section.js';
+import Header from '../../components/header';
+import List from '../../components/list';
+import Article from '../../components/article';
+import Section from '../../components/section';
 
 import styles from './Achievements.styl';
 
