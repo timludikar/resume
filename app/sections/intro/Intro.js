@@ -15,11 +15,10 @@ class App extends React.Component {
   render() {
     return (
       <Section>
-        <Header text="Technical architect" type="h2" />
-        <Paragraph content={[
-          "Holds a unique mix of high-level systems engineering and hands-on experience managing engineering teams, for the development and delivery of  software and hardware based products.",
-          "A forward thinking services team manager who played a key role in the development of one of Deloitte’s Canadian Tech- nology Fast 50 Company’s by using 5+ years of software engineering and project management experience. An impressive  problem solver with strong presentation skills, and a proven track record of dependable technical leadership and management."]} />
-        <Header text="Additional competencies include:" type="h3" />
+        <Header type="h2">Technical architect</Header>
+        <Paragraph>Holds a unique mix of high-level systems engineering and hands-on experience managing engineering teams, for the development and delivery of  software and hardware based products.</Paragraph>
+        <Paragraph>A forward thinking services team manager who played a key role in the development of one of Deloitte’s Canadian Tech- nology Fast 50 Company’s by using 5+ years of software engineering and project management experience. An impressive  problem solver with strong presentation skills, and a proven track record of dependable technical leadership and management.></Paragraph>
+        <Header type="h3">Additional competencies include:</Header>
         <List items={["International project experience as a chairman of a global engineering committee.",
                       "Excels in a fast-paced and  exible work environments.",
                       "Ability to wear many hats in a single organization – from a problem-solving engineer to  a customer-facing marketer.",

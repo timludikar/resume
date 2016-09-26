@@ -6,11 +6,7 @@ class App extends React.Component {
     super(props);
   }
   render() {
-    let content = [];
-    this.props.content.map(text => {
-      content.push(<p>{text}</p>)
-    });
-    return <div>{content}</div>;
+    return <p>{this.props.children}</p>;
   }
 }
 

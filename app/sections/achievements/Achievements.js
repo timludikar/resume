@@ -15,9 +15,9 @@ class App extends React.Component {
   render() {
     return (
       <Section>
-        <Header text="Achievements" type="h2" caps />
+        <Header type="h2" caps>Achievements</Header>
         <Article>
-          <Header text="Full stack Toronto" type="h3" caps />
+          <Header type="h3" caps>Full stack Toronto</Header>
           <List items={["Co-founder of Toronto’s first Full Stack, non-profit, developer community.",
                       "Hosted the  rst Full Stack Conference in November 2014 in Toronto.",
                       "On track to doubling sponsorship contributions for 2015."]} />

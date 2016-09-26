@@ -11,7 +11,7 @@ class App extends React.Component {
     let caps = this.props.caps ? 'allCaps' : '';
     let cssClasses = `${caps}`;
 
-    return React.createElement(this.props.type, { className: cssClasses }, this.props.text );
+    return React.createElement(this.props.type, { className: cssClasses }, this.props.children );
   }
 }
 

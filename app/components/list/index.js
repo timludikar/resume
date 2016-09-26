@@ -1,16 +1,26 @@
 import React from 'react';
 import CSSModules from 'react-css-modules';
 
+class ListItem extends React.Component {
+  render() {
+    return <li>{this.props.text}</li>
+  }
+}
+
 class App extends React.Component {
   constructor(props) {
     super(props);
   }
   render() {
-    let items = [];
-    this.props.items.map(item => {
-      items.push(<li>{item}</li>)
-    });
-    return <ul>{items}</ul>;
+    return(
+      <ul>
+        {
+          this.props.items.map((item, index) => {
+            return <ListItem key={index} text={item}/>
+          })
+        }
+      </ul>
+    );
   }
 }
 
