@@ -8,8 +8,12 @@ class App extends React.Component {
     super(props);
   }
   render() {
-    let caps = this.props.caps ? 'allCaps' : '';
-    let cssClasses = `${caps}`;
+    let caps = this.props.caps ? 'caps' : '';
+    let centered = this.props.centered ? 'center' : '';
+    let left = this.props.left ? 'left' : '';
+    let right = this.props.right ? 'right' : '';
+    let bolded = this.props.bold ? 'bold' : '';
+    let cssClasses = `${caps} ${left} ${centered} ${right} ${bolded}`;
 
     return React.createElement(this.props.type, { className: cssClasses }, this.props.children );
   }

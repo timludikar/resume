@@ -17,13 +17,13 @@ class App extends React.Component {
   render() {
     return (
       <Section>
-        <Header type="h3" caps>Employment Experience</Header>
+        <Header type="h2" caps left bold>Employment Experience</Header>
         <Article>
           <Aside>
-            <Header type="h4" caps>Nurun Inc</Header>
+            <Header type="h3" caps left>Nurun Inc</Header>
             <Paragraph>2014 - Present Toronto, Canada</Paragraph>
           </Aside>
-          <Header type="h4">Senior Interface developer</Header>
+          <Header type="h4" caps>Senior Interface developer</Header>
           <List items={["Senior full stack developer on the Walmart Canada - Search and Browse project.",
                       "Architect of performance-driven front-end development.",
                       "Interface between front-end and back-end development teams."]} />
