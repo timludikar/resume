@@ -11,7 +11,9 @@ class App extends React.Component {
     return (
       <header role="banner">
         <h1><b>Tim</b> Ludikar</h1>
+        <span className="zigzag"/>
       </header>
+
     );
   }
 }

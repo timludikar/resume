@@ -1,7 +1,6 @@
 import React from 'react';
 import CSSModules from 'react-css-modules';
 import styles from './App.styl';
-import zigzag from './sections/header/zigzag.styl';
 
 import Header from './sections/header/Header.js';
 import Intro from './sections/intro/Intro.js';
