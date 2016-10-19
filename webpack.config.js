@@ -28,9 +28,9 @@ module.exports = {
       'process.env.NODE_ENV': JSON.stringify('development')
     })
   ],
-  postcss: [
-    require('lost')
-  ],
+  stylus: {
+    use: [require('rupture')(), require('jeet')()]
+  },
   module: {
     loaders: [{
       test: /\.jsx?$/,

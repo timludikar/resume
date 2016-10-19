@@ -1,4 +1,20 @@
-@import "../node_modules/jeet/stylus/jeet/index.styl"
+@import 'jeet'
+@import 'common/stylus/settings';
 @import url('https://fonts.googleapis.com/css?family=Oswald:300,400')
 
-edit()
+html
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+
+body
+  margin: 0;
+  font: 16px/1 sans-serif;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+
+#root
+  center(350px)
+  +above(rupture.mobile-cutoff)
+    center(800px)
+  +above(rupture.desktop-cutoff)
+    center(1000px)
