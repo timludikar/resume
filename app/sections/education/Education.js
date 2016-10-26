@@ -14,7 +14,7 @@ class App extends React.Component {
   }
   render() {
     return (
-      <Section>
+      <Section id="education" col2='true'>
         <Header type="h2" caps bold>Education</Header>
         <Paragraph>Bachelors Degree in Engineering Systems and Computing (BEng) 2003 - 2009 University of Guelph, Guelph, Ontario</Paragraph>
       </Section>

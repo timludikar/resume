@@ -13,7 +13,7 @@ class App extends React.Component {
   }
   render() {
     return (
-      <Section>
+      <Section id="skills" col2='true'>
         <Header type="h2" caps bold>Summary of personal skills</Header>
         <List items={["Organized,  exible, and dependable.", "Excellent problem solver and programmer.",
                     "Works well as an individual and in a team.", "Self-motivated and pro-active.",

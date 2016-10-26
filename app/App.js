@@ -20,8 +20,10 @@ class App extends React.Component {
       <Header />
       <Intro />
       <Achievements />
-      <Skills />
-      <Education />
+      <div className="clearfix">
+        <Skills />
+        <Education />
+      </div>
       <Experience />
       </div>
     );
