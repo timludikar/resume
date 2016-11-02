@@ -17,7 +17,7 @@ class App extends React.Component {
   render() {
     return (
       <Section id="experience">
-        <Header type="h2" caps left bold>Employment Experience</Header>
+        <Header type="h2" caps left bold zigzag>Employment Experience</Header>
         <Article>
           <Aside>
             <Header type="h3" caps left>Nurun Inc</Header>

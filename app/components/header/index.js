@@ -13,7 +13,8 @@ class App extends React.Component {
     let left = this.props.left ? 'left' : '';
     let right = this.props.right ? 'right' : '';
     let bolded = this.props.bold ? 'bold' : '';
-    let cssClasses = `${caps} ${left} ${centered} ${right} ${bolded}`;
+    let zigzag = this.props.zigzag ? 'zigzag' : '';
+    let cssClasses = `${caps} ${left} ${centered} ${right} ${bolded} ${zigzag}`;
 
     return React.createElement(this.props.type, { className: cssClasses }, this.props.children );
   }

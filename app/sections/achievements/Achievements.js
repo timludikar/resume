@@ -15,7 +15,7 @@ class App extends React.Component {
   render() {
     return (
       <Section>
-        <Header type="h2" caps bold left>Achievements</Header>
+        <Header type="h2" caps bold left zigzag>Achievements</Header>
         <Article>
           <Header type="h3" caps left>Full stack Toronto</Header>
           <List items={["Co-founder of Toronto’s first Full Stack, non-profit, developer community.",

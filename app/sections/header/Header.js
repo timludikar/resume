@@ -1,6 +1,8 @@
 import React from 'react';
 import CSSModules from 'react-css-modules';
 
+import Header from '../../components/header';
+
 import styles from './Header.styl';
 
 class App extends React.Component {
@@ -10,8 +12,7 @@ class App extends React.Component {
   render() {
     return (
       <header role="banner">
-        <h1><b>Tim</b> Ludikar</h1>
-        <span className="zigzag"/>
+        <Header type="h1" zigzag><b>Tim</b> Ludikar</Header>
       </header>
 
     );
