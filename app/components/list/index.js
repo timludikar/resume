@@ -1,6 +1,8 @@
 import React from 'react';
 import CSSModules from 'react-css-modules';
 
+import styles from './list.styl';
+
 class ListItem extends React.Component {
   render() {
     return <li>{this.props.text}</li>
@@ -24,5 +26,4 @@ class App extends React.Component {
   }
 }
 
-export default App;
-// export default CSSModules(App, styles);
+export default CSSModules(App, styles);
