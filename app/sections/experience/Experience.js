@@ -1,10 +1,9 @@
 import React from 'react';
 import CSSModules from 'react-css-modules';
+import { Article, Aside } from 'component-library';
 
 import Header from '../../components/header';
 import List from '../../components/list';
-import Aside from '../../components/aside';
-import Article from '../../components/article';
 import Section from '../../components/section';
 import Paragraph from '../../components/paragraph';
 

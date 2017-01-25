@@ -1,9 +1,9 @@
 import React from 'react';
 import CSSModules from 'react-css-modules';
 
-import Header from '../../components/header';
+import { Header, Article } from 'component-library';
+
 import List from '../../components/list';
-import Article from '../../components/article';
 import Section from '../../components/section';
 
 import styles from './Achievements.styl';
