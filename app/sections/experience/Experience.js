@@ -1,11 +1,8 @@
 import React from 'react';
 import CSSModules from 'react-css-modules';
-import { Article, Aside } from 'component-library';
+import { Article, Aside, Header, Paragraph, UnorderedList, ListItem } from 'component-library';
 
-import Header from '../../components/header';
-import List from '../../components/list';
 import Section from '../../components/section';
-import Paragraph from '../../components/paragraph';
 
 import styles from './Experience.styl';
 
@@ -24,9 +21,11 @@ class App extends React.Component {
           </Aside>
           <div>
           <Header type="h4" caps>Senior Interface developer</Header>
-          <List items={["Senior full stack developer on the Walmart Canada - Search and Browse project.",
-                      "Architect of performance-driven front-end development.",
-                      "Interface between front-end and back-end development teams."]} />
+          <UnorderedList>
+            <ListItem>Senior full stack developer on the Walmart Canada - Search and Browse project.</ListItem>
+            <ListItem>Architect of performance-driven front-end development.</ListItem>
+            <ListItem>Interface between front-end and back-end development teams.</ListItem>
+          </UnorderedList>
           </div>
         </Article>
       </Section>

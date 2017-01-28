@@ -1,7 +1,7 @@
 import React from 'react';
 import CSSModules from 'react-css-modules';
 
-import Header from '../../components/header';
+import { Header } from 'component-library';
 
 import styles from './Header.styl';
 
@@ -12,7 +12,7 @@ class App extends React.Component {
   render() {
     return (
       <header role="banner">
-        <Header type="h1" zigzag><b>Tim</b> Ludikar</Header>
+        <Header type="h1" className={["zigzag"]}><b>Tim</b> Ludikar</Header>
       </header>
 
     );

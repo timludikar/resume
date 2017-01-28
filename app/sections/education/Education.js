@@ -1,9 +1,11 @@
 import React from 'react';
 import CSSModules from 'react-css-modules';
 
-import Header from '../../components/header';
+import { Header, Paragraph } from 'component-library';
+
+// import Header from '../../components/header';
 import Section from '../../components/section';
-import Paragraph from '../../components/paragraph'
+// import Paragraph from '../../components/paragraph'
 
 
 import styles from './Education.styl';

@@ -2,6 +2,8 @@ import React from 'react';
 import CSSModules from 'react-css-modules';
 import styles from './App.styl';
 
+import css from 'component-library/dist/styles.css';
+
 import Header from './sections/header/Header.js';
 import Intro from './sections/intro/Intro.js';
 import Achievements from './sections/achievements/Achievements.js';
